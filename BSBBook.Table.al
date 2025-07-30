@@ -33,11 +33,11 @@ table 50100 "BSB Book"
         {
             Caption = 'Blocked';
         }
-        field(5; Type; Option)
+        field(5; Type; Enum "BSB Book Type")
         {
             Caption = 'Type';
-            OptionMembers = " ",Hardcover,Paperback;
-            OptionCaption = ' ,Hardcover,Paperback';
+            // OptionMembers = " ",Hardcover,Paperback;
+            // OptionCaption = ' ,Hardcover,Paperback';
         }
         field(7; Created; Date)
         {
@@ -101,7 +101,13 @@ table 50100 "BSB Book"
     end;
 
     trigger OnDelete()
+    var
+        IsHandled: Boolean;
     begin
+        OnBeforeOnDelete(Rec, IsHandled);
+        if IsHandled then
+            exit;
+
         Error(OnDeleteErrorLbl);
     end;
 
@@ -147,5 +153,10 @@ table 50100 "BSB Book"
     local procedure ShowCard(BSBBook: Record "BSB Book")
     begin
         Page.RunModal(Page::"BSB Book Card", BSBBook);
+    end;
+
+    [IntegrationEvent(false, false)]
+    local procedure OnBeforeOnDelete(var Rec: Record "BSB Book"; var IsHandled: Boolean)
+    begin
     end;
 }
