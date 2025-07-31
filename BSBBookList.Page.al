@@ -61,6 +61,7 @@ page 50101 "BSB Book List"
             actionref(ClassicCode_Promoted; ClassicCode) { }
             actionref(ClassicCodeWithEvent_Promoted; ClassicCodeWithEvent) { }
             actionref(UsingInterface_Promoted; UsingInterface) { }
+            actionref(UsingInterfaceWithEnum_Promoted; UsingInterfaceWithEnum) { }
         }
         area(Processing)
         {
@@ -157,6 +158,23 @@ page 50101 "BSB Book List"
                     BSBBookTypeProcess.StartDeliverBook();
                 end;
             }
+            action(UsingInterfaceWithEnum)
+            {
+                Caption = 'Using Interface with Enum';
+                ApplicationArea = All;
+                Image = CreateWorkflow;
+                ToolTip = 'Executes the using Interface with Enum action.';
+
+                trigger OnAction()
+                var
+                    BSBBookTypeProcess: Interface "BSB Book Type Process";
+                begin
+                    BSBBookTypeProcess := Rec.Type;
+                    BSBBookTypeProcess.StartDeployBook();
+                    BSBBookTypeProcess.StartDeliverBook();
+                end;
+            }
+
         }
     }
 
