@@ -93,6 +93,21 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit BSB Company Info. Wizard Meth - Method OnReRunOfCompletedSetup - NamedType SetupAlreadyDoneQst</note>
         </trans-unit>
+        <trans-unit id="Codeunit 607005014 - NamedType 2656007186" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 %2 of %3 %4 %5 is lager than %6</source>
+          <note from="Developer" annotates="general" priority="2">"DEU"=%1 %2 of %3 %4 %5 is ist größer als %6</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit BSB Notif. Subscriber Store - NamedType CredLimitNotifMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 607005014 - Method 1163830870 - NamedType 1978664471" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer balace exeeds credit limit</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit BSB Notif. Subscriber Store - Method My Notifications_OnInitializingNotificationWithDefaultState - NamedType NotificationTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 607005014 - Method 1163830870 - NamedType 999470480" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Balance of customer is lager than credit limit</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit BSB Notif. Subscriber Store - Method My Notifications_OnInitializingNotificationWithDefaultState - NamedType NotificationDescTxt</note>
+        </trans-unit>
         <trans-unit id="Codeunit 3524322914 - NamedType 1969826809" size-unit="char" translate="yes" xml:space="preserve">
           <source>Do not forget to enter %1 in %2 %3 %4</source>
           <note from="Developer" annotates="general" priority="2">"DEU"=Bitte vergessen Sie nicht %1 in %2 %3 %4 einzugeben</note>
