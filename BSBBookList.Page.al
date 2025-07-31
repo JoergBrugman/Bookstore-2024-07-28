@@ -60,6 +60,7 @@ page 50101 "BSB Book List"
         {
             actionref(ClassicCode_Promoted; ClassicCode) { }
             actionref(ClassicCodeWithEvent_Promoted; ClassicCodeWithEvent) { }
+            actionref(UsingInterface_Promoted; UsingInterface) { }
         }
         area(Processing)
         {
@@ -128,6 +129,32 @@ page 50101 "BSB Book List"
                         else
                             OnExecuteBookTypeProcess(IsHandled);
                     end;
+                end;
+            }
+            action(UsingInterface)
+            {
+                Caption = 'Using Interface';
+                ApplicationArea = All;
+                Image = CreateWorkflow;
+                ToolTip = 'Executes the using Interface action.';
+
+                trigger OnAction()
+                var
+                    BSBBookTypeEmptyImpl: Codeunit "BSB Book Type Empty Impl.";
+                    BSBBookTypeHardcoverImpl: Codeunit "BSB Book Type Hardcover Impl.";
+                    BSBBookTypePaperbackImpl: Codeunit "BSB Book Type Paperback Impl.";
+                    BSBBookTypeProcess: Interface "BSB Book Type Process";
+                begin
+                    case Rec.Type of
+                        "BSB Book Type"::" ":
+                            BSBBookTypeProcess := BSBBookTypeEmptyImpl;
+                        "BSB Book Type"::Hardcover:
+                            BSBBookTypeProcess := BSBBookTypeHardcoverImpl;
+                        "BSB Book Type"::Paperback:
+                            BSBBookTypeProcess := BSBBookTypePaperbackImpl;
+                    end;
+                    BSBBookTypeProcess.StartDeployBook();
+                    BSBBookTypeProcess.StartDeliverBook();
                 end;
             }
         }

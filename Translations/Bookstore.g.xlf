@@ -263,6 +263,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page BSB Book List - Action ClassicCodeWithEvent - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 2834728084 - Action 1023829253 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Executes the using Interface action.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BSB Book List - Action UsingInterface - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2834728084 - Action 1023829253 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Using Interface</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BSB Book List - Action UsingInterface - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Report 606911310 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Book List</source>
           <note from="Developer" annotates="general" priority="2"></note>

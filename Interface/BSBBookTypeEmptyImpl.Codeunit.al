@@ -1,4 +1,4 @@
-codeunit 50110 "BSB Book Type Empty Impl."
+codeunit 50110 "BSB Book Type Empty Impl." implements "BSB Book Type Process"
 {
     procedure StartDeployBook()
     begin
