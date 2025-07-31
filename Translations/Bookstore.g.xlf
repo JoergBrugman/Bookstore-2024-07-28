@@ -238,6 +238,31 @@
           <note from="Developer" annotates="general" priority="2">%</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page BSB Book List - Control No. of Pages - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 2834728084 - Control 1878130204 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Type field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BSB Book List - Control Type - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2834728084 - Action 1711921187 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Executes the Classic Code action.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BSB Book List - Action ClassicCode - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2834728084 - Action 1711921187 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Classic Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BSB Book List - Action ClassicCode - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2834728084 - Action 3822724289 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Executes the Classic Code with Event action.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BSB Book List - Action ClassicCodeWithEvent - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2834728084 - Action 3822724289 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Classic Code with Event</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BSB Book List - Action ClassicCodeWithEvent - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Report 606911310 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Book List</source>
           <note from="Developer" annotates="general" priority="2"></note>
