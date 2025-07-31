@@ -83,6 +83,11 @@
           <note from="Developer" annotates="general" priority="2">"DEU"=Bitte vergessen Sie nicht %1 in %2 %3 %4 einzugeben</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit BSB Subscriber Store - NamedType FavoriteBookHintMsg</note>
         </trans-unit>
+        <trans-unit id="Page 1869352431 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Map</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BSB BingMapsCardPart - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 2961589650 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Book Card</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -272,6 +277,16 @@
           <source>Using Interface</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page BSB Book List - Action UsingInterface - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2834728084 - Action 217922582 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Executes the using Interface with Enum action.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BSB Book List - Action UsingInterfaceWithEnum - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2834728084 - Action 217922582 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Using Interface with Enum</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BSB Book List - Action UsingInterfaceWithEnum - Property Caption</note>
         </trans-unit>
         <trans-unit id="Report 606911310 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Book List</source>
